@@ -12,6 +12,8 @@ const allowedOrigins = [
   "http://127.0.0.1:3000",
   "http://localhost:3001",
   "http://127.0.0.1:3001",
+  "https://launchpad.thinkfortip.com",
+  "https://admin.launchpad.thinkfortip.com"
 ];
 
 app.use((req, res, next) => {
